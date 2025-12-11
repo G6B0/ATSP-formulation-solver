@@ -45,8 +45,3 @@ def cargar_matrix(path):
     C = np.array(valor_matrix).reshape((n, n))
 
     return C, n
-
-
-C , n = cargar_matrix("data/br17.atsp")
-print("Nodos:", n)
-print(C)
